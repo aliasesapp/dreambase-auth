@@ -18,6 +18,7 @@ build
 
 # wrangler
 .wrangler/
+.vercel/
 
 # vs code
 .vscode/
