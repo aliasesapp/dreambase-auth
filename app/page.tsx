@@ -4,6 +4,9 @@ import { siteConfig } from "@/config/site";
 import { Button } from "@/components/ui/button";
 import { Loader2Icon } from "lucide-react";
 import { SiteFooter } from "@/components/site-footer";
+
+export const runtime = "edge";
+
 export default function IndexPage() {
   return (
     <div className="flex h-screen w-screen flex-col items-center justify-center">

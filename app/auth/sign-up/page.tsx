@@ -1,4 +1,6 @@
-import { SignUpForm } from '@/components/sign-up-form'
+import { SignUpForm } from "@/components/sign-up-form";
+
+export const runtime = "edge";
 
 export default function Page() {
   return (
@@ -7,5 +9,5 @@ export default function Page() {
         <SignUpForm />
       </div>
     </div>
-  )
+  );
 }

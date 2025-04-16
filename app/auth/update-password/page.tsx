@@ -1,4 +1,6 @@
-import { UpdatePasswordForm } from '@/components/update-password-form'
+import { UpdatePasswordForm } from "@/components/update-password-form";
+
+export const runtime = "edge";
 
 export default function Page() {
   return (
@@ -7,5 +9,5 @@ export default function Page() {
         <UpdatePasswordForm />
       </div>
     </div>
-  )
+  );
 }
